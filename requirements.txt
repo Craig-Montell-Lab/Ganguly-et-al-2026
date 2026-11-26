@@ -1,0 +1,6 @@
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+neuprint-python  # only needed for optional 01_fetch_connectivity.py

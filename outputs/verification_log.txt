@@ -1,0 +1,30 @@
+                                      test  observed_ratio  mean_within_distance  mean_between_distance  n_permutations  random_seed  p_value                          permutation_scheme
+                   global_group_separation        1.492871              0.108227               0.161569            9999           42   0.0001       shuffle_group_labels_over_all_neurons
+group_separation_conditioned_on_hemisphere        1.492871              0.108227               0.161569            9999           42   0.0001 shuffle_group_labels_within_each_hemisphere
+
+Mann–Whitney comparisons (uncorrected two-sided p-values):
+ PC    group1           group2  n1  n2  U_statistic  p_value_uncorrected
+PC1      LB3a         LB3d_ACh  17  11        166.0             0.000707
+PC1      LB3a        LB3d_glut  17   7         89.0             0.064547
+PC1      LB3a LB3d_unannotated  17   8        116.0             0.003868
+PC1  LB3d_ACh        LB3d_glut  11   7         23.0             0.179110
+PC1  LB3d_ACh LB3d_unannotated  11   8         53.0             0.492022
+PC1 LB3d_glut LB3d_unannotated   7   8         40.0             0.189277
+PC2      LB3a         LB3d_ACh  17  11        177.0             0.000094
+PC2      LB3a        LB3d_glut  17   7        108.0             0.001046
+PC2      LB3a LB3d_unannotated  17   8        118.0             0.002426
+PC2  LB3d_ACh        LB3d_glut  11   7         32.0             0.596154
+PC2  LB3d_ACh LB3d_unannotated  11   8         26.0             0.151756
+PC2 LB3d_glut LB3d_unannotated   7   8         22.0             0.535820
+
+Anatomical hemisphere counts:
+hemisphere        Left  Right
+seed_group                   
+LB3a                 9      8
+LB3d_ACh             4      7
+LB3d_glut            4      3
+LB3d_unannotated     3      5
+
+Interpretation: the hemisphere-stratified test examines whether group
+separation exceeds that expected after preserving hemisphere composition.
+It does NOT prove that hemisphere has no influence on the PCA.
